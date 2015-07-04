@@ -1,0 +1,349 @@
+/*
+Theme Name: Modest Coder
+Theme URI: http://srikanth.me
+Description: Modest Coder is a minimal theme designed for professional developers to portray recent projects and articles.
+Version: 1.0
+Author: <a href="http://srikanth,me/">Srikanth AD</a>
+Tags: light, minimal
+For the WordPress community (GPL),
+by Srikanth AD - srikanth.me
+*/
+
+body {
+background:url(images/bg.png) #414141;
+font-family:'Goudy Bookletter 1911',serif;
+font-size:20px;
+color:#414141;
+}
+
+#logo {
+	border-radius: 50%;
+}
+
+#content-container {
+    background: #FFF;
+  border: solid #DAD7D2;
+  border-width: 10px 1px 8px 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px 0;
+  padding: 1rem 6rem;
+}
+
+#content-container h1 {
+	margin: 3rem 1rem;
+	font-size: 4.4rem;
+}
+
+#content-container p {
+	font-size: 2rem;
+}
+.post-date {
+  font-family: "Arial";
+  font-size: 1.2rem !important;
+  text-transform: uppercase;
+  padding: 3rem;
+  border-radius: 50%;
+  background: #DDD;
+  width: 12rem;
+  height: 12rem;
+  text-align: center;
+  border: 10px solid #F0F0F0;
+  margin-top: 2rem;
+}
+.post-header {
+	border-bottom: 2px solid #f4f4f4;
+	margin-bottom: 2rem;
+}
+
+#outer-header {
+  border-bottom: 10px solid #CFCAC2;
+  background: #FFF;
+  margin-bottom: 4rem;
+}
+
+#header {
+
+}
+
+#header h1 {
+	font-size: 4rem;
+	padding-bottom: 0.2rem;
+	margin-bottom: 0.1rem;
+	padding-left: 2rem;
+}
+
+#header h3 {
+	font-size: 2.5rem;
+	color:#7a7a7a;
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 2rem;
+}
+
+#header .brand a {
+	text-decoration: none;
+	color:#555;
+}
+
+.post-list h2 a {
+	color: #3A3A3A;
+}
+
+.post-list article {
+	margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow: auto;
+}
+
+.post-list article h2 {
+	font-size: 3.4rem;
+	margin-bottom: 0.1rem;
+}
+
+.post-list a:hover {
+	text-decoration: none;
+	color: #23527C;
+}
+
+.post-list-date {
+	color:rgba(0, 0, 0, 0.4);
+	font-style: italic;
+}
+
+#header .brand a:hover {
+	text-decoration: none;
+}
+
+#header .header-menu-container {
+	padding: 3rem;
+	font-size: 2.5rem;
+}
+
+#header .header-menu-container a {
+	color: #414141;
+	margin-right: 3rem;
+}
+#header .header-menu-container a:hover {
+	border-bottom:1px dashed #aaa;
+	text-decoration: none;
+}
+
+#container h1 {
+
+}
+
+#container h1 a {
+color:#222;
+text-decoration:none;
+}
+
+#container h1 a:hover {
+color:#c00;
+}
+
+#content {
+
+}
+
+#content h2 {
+font-size:20px;
+margin:5px 0 7px 0;
+}
+
+#sidebar {
+font-size:12px;
+float:right;
+width:180px;
+border-left:#999 1px solid;
+padding:0 0 20px 15px;
+margin:0 0 20px 0;
+}
+
+#searchform {
+margin:15px 0 0 0;
+}
+
+#searchform input {
+background:#222;
+font-size:11px;
+margin:2px 0;
+padding:1px 4px 2px 4px;
+border:#888 1px solid;
+color:#eee;
+}
+
+#searchform input:hover {
+background:#333;
+border:#999 1px solid;
+color:#fff;
+cursor:pointer;
+}
+
+#searchform #s {
+background:#f6f6f6;
+font-size:11px;
+margin:2px 0;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+#searchform #s:hover {
+border:#c00 1px solid;
+cursor:text;
+}
+
+input.searchfield {
+background:#f6f6f6;
+font-size:11px;
+display:block;
+margin:5px 0 8px 0;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+input.searchfield:hover {
+background:#eee;
+color:#222;
+}
+
+input.submit {
+background:#222;
+font-size:11px;
+display:block;
+margin:0 0 10px 0;
+padding:1px 4px 2px 4px;
+border:#888 1px solid;
+color:#eee;
+}
+
+textarea {
+background:#f6f6f6;
+font-size:12px;
+width:400px;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+textarea:hover {
+border:#c00 1px solid;
+}
+
+.postinput small {
+font-size:11px;
+margin:0 0 0 5px;
+}
+
+p.logged {
+font-size:12px;
+}
+
+blockquote {
+background:url(images/quote.gif) no-repeat top left;
+padding:0 0 0 60px;
+min-height:50px;
+}
+
+#footer {
+
+}
+
+#footer a {
+
+}
+
+#footer a:hover {
+
+}
+
+.warning p {
+padding:20px 0 0 90px;
+font-size:20px;
+margin:0 0 0 10px;
+}
+
+img.wp-smiley {
+padding:0;
+border:none;
+}
+
+input:focus, textarea:focus{
+background-color:#ffc;
+}
+
+abbr {
+border:none;
+}
+
+.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.alignleft {
+float:left;
+}
+
+.alignright {
+float:right;
+}
+
+.wp-caption {
+border:1px solid #ddd;
+text-align:center;
+background-color:#f3f3f3;
+padding-top:4px;
+margin:10px;
+-moz-border-radius:3px;
+-khtml-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+}
+
+.wp-caption img {
+margin:0;
+padding:0;
+border:0 none;
+}
+
+.wp-caption-dd {
+font-size:11px;
+line-height:17px;
+padding:0 4px 5px;
+margin:0;
+}
+
+/* self-clear floats */
+
+.group:after {
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+/* IE Hacks */
+
+*html #bubble {
+display:none;
+}
+
+*html #bubble p {
+display:none;
+}
+
+* html .group,
+* html #nav ul li a {
+height: 1%;
+}
+
+*:first-child+html .group {
+min-height: 1px;
+}
+
+* html #nav ul li a {
+display: inline;
+}
