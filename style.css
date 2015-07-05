@@ -73,7 +73,7 @@ float:right;
   border: solid #DAD7D2;
   border-width: 10px 1px 8px 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px 0;
-  padding: 1rem 6rem;
+  padding: 2rem;
 }
 
 #content-container h1 {
@@ -128,7 +128,7 @@ float:right;
 }
 
 #header .header-menu-container {
-	padding: 3rem;
+	padding: 2rem;
 	font-size: 2.5rem;
 	text-align: center;
 }
@@ -305,4 +305,14 @@ display: inline;
 
 .homepage-content .latest-article {
 	padding-left: 0;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#content-container {
+		padding: 1rem 6rem;
+	}
+	#header .header-menu-container {
+		padding: 3rem;
+	}
 }
