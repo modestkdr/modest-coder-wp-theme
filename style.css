@@ -29,7 +29,7 @@ color:#414141;
 }
 
 #content-container h1 {
-	margin: 3rem 1rem;
+	margin: 3rem 0;
 	font-size: 4.4rem;
 }
 
@@ -346,4 +346,56 @@ min-height: 1px;
 
 * html #nav ul li a {
 display: inline;
+}
+
+.homepage-content h1 {
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.homepage-content .latest-post-date {
+	color: #4d4d4d;
+		font-style: italic;
+	font-size: 1rem;
+}
+
+.homepage-content a {
+	color: #4d4d4d;
+}
+
+.homepage-content h3 {
+	font-size: 3.5rem;
+	border-bottom: 1px solid #efefef;
+}
+
+.homepage-content a:hover {
+	color:#222;
+	text-decoration: none;
+}
+.grey {
+	color: #aaa;
+}
+
+.homepage-content .projects {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.homepage-content .project-card {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.homepage-content .projects h4 {
+	font-size: 2.4rem;
+}
+
+.homepage-content .projects a {
+	color:#d14334;
+}
+
+.homepage-content .latest-article {
+	padding-left: 0;
 }
