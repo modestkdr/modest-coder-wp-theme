@@ -10,6 +10,7 @@
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name');?> RSS Feed" href="<?php bloginfo('rss2_url');?>" />
 <link rel="shortcut icon" type="image/x-png" href="<?php bloginfo('template_url');?>/favicon.png" />
 <link rel="pingback" href="<?php bloginfo('pingback_url');?>" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <?php wp_head();?>
 </head>
 
