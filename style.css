@@ -56,14 +56,6 @@ float:right;
   font-family: "Arial";
   font-size: 1.2rem !important;
   text-transform: uppercase;
-  padding: 3rem;
-  border-radius: 50%;
-  background: #DDD;
-  width: 12rem;
-  height: 12rem;
-  text-align: center;
-  border: 10px solid #F0F0F0;
-  margin-top: 2rem;
 }
 
 /* CONTENT AREA */
@@ -326,5 +318,16 @@ display: inline;
 
 	#header .header-menu-container a {		
 		margin-right: 3rem;
+	}
+
+	.post-date {
+	  padding: 3rem;
+	  border-radius: 50%;
+	  background: #DDD;
+	  width: 12rem;
+	  height: 12rem;
+	  text-align: center;
+	  border: 10px solid #F0F0F0;
+	  margin-top: 2rem;
 	}
 }
