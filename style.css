@@ -135,8 +135,9 @@ float:right;
 
 #header .header-menu-container a {
 	color: #414141;
-	margin-right: 3rem;
+	margin-right: 2rem;
 }
+
 #header .header-menu-container a:hover {
 	border-bottom:1px dashed #aaa;
 	text-decoration: none;
@@ -312,7 +313,12 @@ display: inline;
 	#content-container {
 		padding: 1rem 6rem;
 	}
+
 	#header .header-menu-container {
 		padding: 3rem;
+	}
+
+	#header .header-menu-container a {		
+		margin-right: 3rem;
 	}
 }

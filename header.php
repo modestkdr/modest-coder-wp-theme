@@ -18,7 +18,7 @@
 <div id="outer-header">
 	<div id="header" class="container">
 		<div class="col-md-1"></div>
-		<div class="col-md-4 brand">
+		<div class="col-md-5 brand">
 			<div class="col-md-3">
 				<img id="logo" src="http://www.srikanth.me/wp-content/uploads/2012/06/srikanth-ad.png" />
 			</div>
