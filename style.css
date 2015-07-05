@@ -32,6 +32,10 @@ abbr {
 border:none;
 }
 
+a:visited {
+	text-decoration: none;
+}
+
 /* UTILITY CLASSES */
 
 .grey {
