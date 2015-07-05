@@ -4,7 +4,6 @@
 <title><?php wp_title(' ');?><?php if (wp_title(' ', false)) {?> at <?php }
 ?><?php bloginfo('name');?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset');?>" />
-<meta name="description" content="<?php bloginfo('description');?>" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
 <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet" type="text/css" media="screen" />
