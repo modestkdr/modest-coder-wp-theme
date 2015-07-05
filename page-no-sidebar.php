@@ -10,13 +10,11 @@ Template Name: Page No Sidebar
 
 <?php if (have_posts()): while (have_posts()): the_post();?>
 
-										<h2 id="post-<?php the_ID();?>"><?php the_title();?></h2>
+												<div class="main">
+													<?php the_content();?>
+												</div>
 
-										<div class="main">
-											<?php the_content();?>
-										</div>
-
-										<?php endwhile;else: ?>
+												<?php endwhile;else: ?>
 
 <?php endif;?>
 
