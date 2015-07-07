@@ -97,6 +97,10 @@ float:right;
   height: auto;
 }
 
+.post-content h3 {
+	font-size: 3.2rem;
+}
+
 /* GLOBAL HEADER */
 
 #outer-header {
@@ -308,6 +312,10 @@ display: inline;
 .homepage-content .projects h4 a,
 .project-card h4 a {
 	color:#d14334;
+}
+
+.navigation.group {
+	margin: 5rem 0;
 }
 
 /* Small devices (tablets, 768px and up) */
