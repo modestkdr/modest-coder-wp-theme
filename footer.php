@@ -1,11 +1,5 @@
 </div>
 
-<div id="footer" class="container">
-	<div class="col-md-offset-2 col-md-10">
-		<div class="col-md-6"><a class="grey" href="https://twitter.com/Srikanth_AD">Follow me on Twitter</a></div>
-		<div class="col-md-6 text-right"> // Srikanth AD</div>
-	</div>
-</div>
 <?php do_action('wp_footer', '');?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
