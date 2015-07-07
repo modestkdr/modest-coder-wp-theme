@@ -198,10 +198,16 @@ margin:5px 0 7px 0;
 	margin-top: 3rem;
 }
 
+.post-list .project-card {
+	margin: 3rem 0;
+	border-bottom:1px solid #efefef;
+	padding-bottom: 1rem; 
+}
+
 /* FOOTER */
 
 #footer {
-	margin: 1rem 0;
+	margin: 1rem 0 2rem 0;
 }
 
 #footer a {
