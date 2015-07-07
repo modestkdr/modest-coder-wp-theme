@@ -7,11 +7,11 @@
 		<?php $cat_id = 8;
 $latest_cat_post = new WP_Query(array('posts_per_page' => 5, 'category__in' => array($cat_id)));
 if ($latest_cat_post->have_posts()): while ($latest_cat_post->have_posts()): $latest_cat_post->the_post();?>
-				<div class="project-card">
-					<h2><a href="<?php the_permalink()?>"><?php the_title();?></a></h2>
-					<?php the_content(' ... read more');?>
-				</div>
-			<?php endwhile;endif;?>
+						<div class="project-card">
+							<h2><a href="<?php the_permalink()?>"><?php the_title();?></a></h2>
+							<?php the_content(' ... read more');?>
+						</div>
+					<?php endwhile;endif;?>
 
 <?php endif;?>
 
@@ -20,22 +20,22 @@ if ($latest_cat_post->have_posts()): while ($latest_cat_post->have_posts()): $la
 	<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
 
 	<?php while (have_posts()): the_post();?>
-			<article>
-				<div class="col-md-3 post-thumbnail-container">
-					<?php the_post_thumbnail(array('class' => 'img-responsive'));?>
-				</div>
-				<div class="col-md-9">
-					<h2 id="post-<?php the_ID();?>"><a href="<?php the_permalink()?>" rel="bookmark"><?php the_title();?></a></h2>
-					<p class="post-list-date"><?php echo get_the_date();?></p>
-					<div class="main">
-						<?php the_content(' ... read more');?>
+				<article>
+					<div class="col-md-3 post-thumbnail-container">
+						<?php the_post_thumbnail('attachment-thumbnail', array('class' => 'img-responsive'));?>
 					</div>
-				</div>
-			</article>
+					<div class="col-md-9">
+						<h2 id="post-<?php the_ID();?>"><a href="<?php the_permalink()?>" rel="bookmark"><?php the_title();?></a></h2>
+						<p class="post-list-date"><?php echo get_the_date();?></p>
+						<div class="main">
+							<?php the_content(' ... read more');?>
+						</div>
+					</div>
+				</article>
 
 
 
-		<?php endwhile;else: ?>
+			<?php endwhile;else: ?>
 <?php endif;?>
 
 <div class="navigation group">
