@@ -32,7 +32,7 @@ abbr {
 border:none;
 }
 
-a:visited {
+a:visited,a:hover {
 	text-decoration: none;
 }
 
@@ -74,6 +74,7 @@ float:right;
   border-width: 10px 1px 8px 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px 0;
   padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 #content-container h1 {
@@ -130,7 +131,7 @@ float:right;
 }
 
 #header .brand a:hover {
-	text-decoration: none;
+	
 }
 
 #header .header-menu-container {
@@ -146,7 +147,7 @@ float:right;
 
 #header .header-menu-container a:hover {
 	border-bottom:1px dashed #aaa;
-	text-decoration: none;
+	
 }
 
 #header .brand {
@@ -171,7 +172,6 @@ float:right;
 }
 
 .post-list a:hover {
-	text-decoration: none;
 	color: #23527C;
 }
 
@@ -194,10 +194,14 @@ font-size:20px;
 margin:5px 0 7px 0;
 }
 
+.post-thumbnail-container img {
+	margin-top: 3rem;
+}
+
 /* FOOTER */
 
 #footer {
-
+	margin: 1rem 0;
 }
 
 #footer a {
@@ -287,7 +291,6 @@ display: inline;
 
 .homepage-content a:hover {
 	color:#222;
-	text-decoration: none;
 }
 
 .homepage-content .projects {

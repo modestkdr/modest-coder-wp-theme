@@ -20,7 +20,9 @@
 		<div class="col-md-1"></div>
 		<div class="col-md-5 brand">
 			<div class="col-md-3">
-				<img id="logo" src="http://www.srikanth.me/wp-content/uploads/2012/06/srikanth-ad.png" />
+				<a href="<?php echo get_home_url();?>">
+					<img id="logo" src="/wp-content/uploads/2012/06/srikanth-ad.png" />
+				</a>
 			</div>
 			<div class="col-md-9">
 				<h1><a href="<?php echo get_home_url();?>">Srikanth AD</a></h1>

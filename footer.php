@@ -1,6 +1,10 @@
 </div>
 
-<div id="footer">
+<div id="footer" class="container-fluid">
+	<div class="col-md-offset-1 col-md-10">
+		<div class="col-md-6"><a class="grey" href="https://twitter.com/Srikanth_AD">Follow me on Twitter</a></div>
+		<div class="col-md-6 text-right"> // Srikanth AD</div>
+	</div>
 </div>
 <?php do_action('wp_footer', '');?>
 <script>
